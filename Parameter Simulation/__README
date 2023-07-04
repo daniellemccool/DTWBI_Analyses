@@ -1,0 +1,23 @@
+This folder contains the simulation study and analyses that led to Appendix A
+in the paper Dynamic Time Warping-based imputation of long gaps in human
+mobility trajectories. 
+
+To run the simulation study, call the file _00_single_threaded_sim_script.R with
+all sets of varying parameters (n_imps, match.buffer, time.window, candidate
+specificity).
+
+The analysis of the relationships between the different parameters is documented
+in _01_sim_parameter_analysis.R. The data are not made available due to their 
+sensitive nature, but this file is made available for transparency.
+
+Files haversine.cpp, query_setup.R, ref_setup.R and utils.R provide
+supplementary functions necessary for the simulation study or analysis.
+
+## List of files ##
+__README
+_00_single_threaded_sim_script.R
+_01_sim_parameter_analysis.R
+haversine.cpp
+query_setup.R
+ref_setup.R
+utils.R
